@@ -58,6 +58,7 @@ public class CourseService implements CRUDService<CourseDto> {
         Course course = new Course();
         course.setId(courseDto.getId());
         course.setName(courseDto.getName());
+        //hello
 //        List<Course> listCourses =
 //        course.setStudents(
 //                courseDto.getListIdStudents()
